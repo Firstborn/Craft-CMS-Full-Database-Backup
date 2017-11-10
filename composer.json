@@ -1,0 +1,11 @@
+{
+    "name": "fbdev/craft-cms-database-backup-plugin",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Derrick Grigg",
+            "email": "derrick.grigg@firstborn.com"
+        }
+    ],
+    "require": {}
+}
