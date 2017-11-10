@@ -1,0 +1,40 @@
+{% import "_includes/forms" as forms %}
+
+<h2>Select the tables to include in database backups.</h2>
+<p>The normal Craft backup always excludes these tables. </p>
+<table class="data">
+    <thead>
+        <tr>
+            <th>Backup?</th>
+            <th>Table</th>
+        </tr>
+    </thead>
+    <tbody>
+{% for table, value in settings.includeTables %}
+        <tr>
+            <td>
+                <div class="input ltr">
+                    <div class="left">
+                        {{ forms.lightswitch({
+                        name: 'includeTables[' ~ table ~ ']',
+                        value: table,
+                        on: value,
+                        disabled: 0
+                        }) }}
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="heading">
+                    <label id="enabled-label" >{{table}}</label>
+                </div>
+            </td>
+        </tr>{% endfor %}
+    </tbody>
+</table>
+
+
+
+
+
+
