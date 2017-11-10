@@ -23,7 +23,7 @@ class FullDbBackupTool extends BaseTool
 	 */
 	public function getName()
 	{
-		return Craft::t('Backup Database');
+		return Craft::t('Backup Full Database');
 	}
 
 	/**
