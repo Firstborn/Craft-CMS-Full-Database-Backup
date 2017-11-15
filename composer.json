@@ -1,5 +1,5 @@
 {
-    "name": "fbdev/craft-cms-database-backup-plugin",
+    "name": "fbdev/craft-cms-full-database-backup",
     "type": "package",
     "authors": [
         {
