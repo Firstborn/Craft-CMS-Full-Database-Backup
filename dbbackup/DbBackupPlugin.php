@@ -1,16 +1,27 @@
 <?php
+
+
 /**
- * Test plugin for Craft CMS
+ * Full Database Backup plugin for Craft CMS
  *
+ * Create full database backups of the Craft mysql database, including asset index and transformation tables. The regular database backup excludes these tables with no way to include them:
+ * - assetindexdata
+ * - assettransformindex
+ * - cache
+ * - sessions
+ * - templatecaches
+ * - templatecachecriteria
+ * - templatecacheelements
  *
  * @author    Derrick Grigg
- * @copyright Copyright (c) 2017 Derrick Grigg
- * @link      http://dgrigg.com
- * @package   RelationshipWatch
+ * @copyright Copyright (c) 2017 FirstBorn
+ * @link      https://firstborn.com
+ * @package   DbBackupPlugin
  * @since     1.0.0
  *
  * database icon svg by Mister Pixel from the Noun Project
  */
+
 
 namespace Craft;
 
