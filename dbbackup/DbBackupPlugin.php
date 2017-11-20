@@ -14,7 +14,7 @@
  * - templatecacheelements
  *
  * @author    Derrick Grigg
- * @copyright Copyright (c) 2017 FirstBorn
+ * @copyright Copyright (c) 2017 Firstborn
  * @link      https://firstborn.com
  * @package   DbBackupPlugin
  * @since     1.0.0
@@ -27,8 +27,6 @@ namespace Craft;
 
 class DbBackupPlugin extends BasePlugin
 {
-
-
 
     /**
      * @return mixed
@@ -115,7 +113,7 @@ class DbBackupPlugin extends BasePlugin
      */
     public function getDeveloper()
     {
-        return 'Derrick Grigg';
+        return 'Firstborn';
     }
 
     /**
@@ -123,7 +121,7 @@ class DbBackupPlugin extends BasePlugin
      */
     public function getDeveloperUrl()
     {
-        return 'http://firstborn.com';
+        return 'http://www.firstborn.com';
     }
 
     /**
